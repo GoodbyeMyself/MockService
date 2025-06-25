@@ -13,8 +13,6 @@ const router = express.Router();
 // 3、 挂载具体的路由
 router.get('/data-mock/testInfo', (req, res) => {
     // --
-    console.log(req, '<- 获取到的参数');
-    // --
     res.json({
         code: 0,
         data: [{
