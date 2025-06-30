@@ -31,8 +31,13 @@ app.use(function(req, res, next) {
 // 路由模块
 const testInit = require('../api/bms-service/testInit.js');
 
+// 灾备管理系统
+const disasterRecovery = require('../api/disaster-recovery/index.js');
+
 // 注册
 app.use(testInit);
+// 注册： 灾备管理系统
+app.use(disasterRecovery);
 
 // 监听端口启动服务器
 app.listen(3000, (error) => {
