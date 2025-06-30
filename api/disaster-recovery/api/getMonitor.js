@@ -11,7 +11,7 @@ const express = require('express')
 const router = express.Router();
 
 // 3、 挂载具体的路由
-router.get('/disaster-recovery/getMonitor', (req, res) => {
+router.get('/getMonitor', (req, res) => {
     // --
     res.json({
         "code": "0",

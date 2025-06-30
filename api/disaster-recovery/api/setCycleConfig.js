@@ -11,7 +11,7 @@ const express = require('express')
 const router = express.Router();
 
 // 3、 挂载具体的路由
-router.post('/disaster-recovery/setCycleConfig', (req, res) => {
+router.post('/setCycleConfig', (req, res) => {
     // 获取 interval 参数
     const interval = req.query.interval;
 

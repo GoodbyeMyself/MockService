@@ -11,7 +11,7 @@ const express = require('express')
 const router = express.Router();
 
 // 3、 挂载具体的路由
-router.post('/disaster-recovery/changeMaster', (req, res) => {
+router.post('/changeMaster', (req, res) => {
     // --
     res.json({
         "code": "0",
