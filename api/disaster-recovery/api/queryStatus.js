@@ -16,7 +16,7 @@ router.get('/queryStatus', (req, res) => {
         "code": "0",
         "messages": [],
         "extras": {},
-        "data": "running",  // stopping 停止中 | running 运行中 | stopped 已停止 
+        "data": "stopped",  // stopping 停止中 | running 运行中 | stopped 已停止 
         "errorId": null,
         "errorDetail": null
     })

@@ -14,12 +14,12 @@ const router = express.Router();
 router.post('/changeMaster', (req, res) => {
     // --
     res.json({
-        "code": "0",
+        "code": "500",
         "messages": [],
         "extras": {},
         "data": null,
         "errorId": null,
-        "errorDetail": null
+        "errorDetail": '脚本运行中,无法切换主备,请先停止同步'
     })
 });
 

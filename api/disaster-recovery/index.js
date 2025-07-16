@@ -18,6 +18,7 @@ const stopSyncRouter = require('./api/stopSync');
 const setCycleConfigRouter = require('./api/setCycleConfig');
 const queryStatusRouter = require('./api/queryStatus');
 const logRouter = require('./api/log');
+const getChangeLog = require('./api/getChangeLog');
 
 // 4、使用子模块路由
 router.use(changeMasterRouter);
@@ -27,6 +28,7 @@ router.use(stopSyncRouter);
 router.use(setCycleConfigRouter);
 router.use(queryStatusRouter);
 router.use(logRouter);
+router.use(getChangeLog);
 
 // 5、向外导出统一的路由对象
 module.exports = router;
