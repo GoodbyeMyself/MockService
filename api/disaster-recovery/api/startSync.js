@@ -19,7 +19,7 @@ router.post('/startSync', (req, res) => {
         "extras": {},
         "data": null,
         "errorId": null,
-        "errorDetail": null
+        "errorDetail": 'xxxxxxxxxxxxx'
     })
 });
 

@@ -14,12 +14,12 @@ const router = express.Router();
 router.post('/stopSync', (req, res) => {
     // --
     res.json({
-        "code": "0",
+        "code": "500",
         "messages": [],
         "extras": {},
         "data": null,
         "errorId": null,
-        "errorDetail": null
+        "errorDetail": 'xxxxxxxxxxxxx'
     })
 });
 
